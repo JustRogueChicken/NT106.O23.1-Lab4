@@ -1,0 +1,13 @@
+E:\Lap Trinh Mang Can Ban\LAB4_BT\Bai6\obj\Debug\Bai6.csproj.AssemblyReference.cache
+E:\Lap Trinh Mang Can Ban\LAB4_BT\Bai6\obj\Debug\Bai6.Properties.Resources.resources
+E:\Lap Trinh Mang Can Ban\LAB4_BT\Bai6\obj\Debug\Bai6.csproj.GenerateResource.cache
+E:\Lap Trinh Mang Can Ban\LAB4_BT\Bai6\obj\Debug\Bai6.csproj.CoreCompileInputs.cache
+E:\Lap Trinh Mang Can Ban\LAB4_BT\Bai6\bin\Debug\Bai6.exe.config
+E:\Lap Trinh Mang Can Ban\LAB4_BT\Bai6\bin\Debug\Bai6.exe
+E:\Lap Trinh Mang Can Ban\LAB4_BT\Bai6\bin\Debug\Bai6.pdb
+E:\Lap Trinh Mang Can Ban\LAB4_BT\Bai6\bin\Debug\Newtonsoft.Json.dll
+E:\Lap Trinh Mang Can Ban\LAB4_BT\Bai6\bin\Debug\Newtonsoft.Json.xml
+E:\Lap Trinh Mang Can Ban\LAB4_BT\Bai6\obj\Debug\Bai6.csproj.Up2Date
+E:\Lap Trinh Mang Can Ban\LAB4_BT\Bai6\obj\Debug\Bai6.exe
+E:\Lap Trinh Mang Can Ban\LAB4_BT\Bai6\obj\Debug\Bai6.pdb
+E:\Lap Trinh Mang Can Ban\LAB4_BT\Bai6\obj\Debug\Bai6.Form1.resources
