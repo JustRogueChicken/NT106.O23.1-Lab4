@@ -43,9 +43,15 @@ namespace Bai5
                     return;
                 }
 
-                var tokenType = responseObject["token_type"]?.ToString();
-                var accessToken = responseObject["access_token"]?.ToString();
-                textBox4.Text = $"Token Type: {tokenType}\nAccess Token: {accessToken}\nĐăng nhập thành công";
+                var tokenType = responseObject["token_type"].ToString();
+                var accessToken = responseObject["access_token"].ToString();
+                 textBox4.AppendText($"{tokenType} {accessToken}\n");
+
+
+                client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", accessToken);
+                var getUserUrl = "https://nt106.uitiot.vn/api/v1/user/me";
+                var getUserResponse = await client.GetAsync(getUserUrl);
+                textBox4.AppendText("\nĐăng nhập thành công!\n");
             }
         }
     }
