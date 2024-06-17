@@ -106,20 +106,6 @@ namespace Bai3
             }
         }
 
-        private void btnViewSource_Click(object sender, EventArgs e)
-        {
-            string url = tbAddress.Text;
-            // Tải nguồn của trang web
-            HtmlAgilityPack.HtmlWeb web = new HtmlAgilityPack.HtmlWeb();
-            HtmlAgilityPack.HtmlDocument document = web.Load(url);
-            // Lưu trữ nguồn của trang web vào biến source
-            string source = document.DocumentNode.OuterHtml;
-            // Hiển thị nguồn trong một cửa sổ Resource
-            using (Form1 viewSourceForm = new Form1())
-            {
-                viewSourceForm.SetSource(source);
-                viewSourceForm.ShowDialog();
-            }
-        }
+       
     }
 }
