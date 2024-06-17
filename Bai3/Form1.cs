@@ -23,9 +23,6 @@ namespace Bai3
             // Do something if needed on load
         }
 
-        public void SetSource(string source)
-        {
-            webView2.NavigateToString(source);
-        }
+       
     }
 }
