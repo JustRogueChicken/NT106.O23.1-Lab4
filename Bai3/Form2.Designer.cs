@@ -33,7 +33,6 @@
             this.tbAddress = new System.Windows.Forms.TextBox();
             this.pnWeb = new System.Windows.Forms.FlowLayoutPanel();
             this.btnDowHTML = new System.Windows.Forms.Button();
-            this.btnViewSource = new System.Windows.Forms.Button();
             this.tbPath = new System.Windows.Forms.TextBox();
             this.pnWeb.SuspendLayout();
             this.SuspendLayout();
@@ -76,7 +75,6 @@
             this.pnWeb.Controls.Add(this.btnGo);
             this.pnWeb.Controls.Add(this.tbAddress);
             this.pnWeb.Controls.Add(this.btnDowHTML);
-            this.pnWeb.Controls.Add(this.btnViewSource);
             this.pnWeb.Controls.Add(this.tbPath);
             this.pnWeb.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnWeb.Location = new System.Drawing.Point(0, 0);
@@ -96,24 +94,12 @@
             this.btnDowHTML.UseVisualStyleBackColor = false;
             this.btnDowHTML.Click += new System.EventHandler(this.btnDowHTML_Click);
             // 
-            // btnViewSource
-            // 
-            this.btnViewSource.AutoSize = true;
-            this.btnViewSource.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnViewSource.Location = new System.Drawing.Point(132, 40);
-            this.btnViewSource.Name = "btnViewSource";
-            this.btnViewSource.Size = new System.Drawing.Size(123, 31);
-            this.btnViewSource.TabIndex = 6;
-            this.btnViewSource.Text = "ViewSource";
-            this.btnViewSource.UseVisualStyleBackColor = false;
-            this.btnViewSource.Click += new System.EventHandler(this.btnViewSource_Click);
-            // 
             // tbPath
             // 
-            this.tbPath.Location = new System.Drawing.Point(261, 40);
+            this.tbPath.Location = new System.Drawing.Point(132, 40);
             this.tbPath.Multiline = true;
             this.tbPath.Name = "tbPath";
-            this.tbPath.Size = new System.Drawing.Size(1016, 31);
+            this.tbPath.Size = new System.Drawing.Size(1106, 31);
             this.tbPath.TabIndex = 5;
             // 
             // Form2
@@ -124,7 +110,7 @@
             this.Controls.Add(this.pnWeb);
             this.IsMdiContainer = true;
             this.Name = "Form2";
-            this.Text = "Form1";
+            this.Text = "s";
             this.pnWeb.ResumeLayout(false);
             this.pnWeb.PerformLayout();
             this.ResumeLayout(false);
@@ -139,6 +125,5 @@
         private System.Windows.Forms.FlowLayoutPanel pnWeb;
         private System.Windows.Forms.Button btnDowHTML;
         private System.Windows.Forms.TextBox tbPath;
-        private System.Windows.Forms.Button btnViewSource;
     }
 }
